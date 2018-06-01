@@ -16,7 +16,9 @@
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
     
     
+    
     <style>
+        
     
         * {cursor: url(nailcur.cur), default; }
     
@@ -26,6 +28,17 @@
     <link rel="shortcut icon" href="nailcuricon.ico">
     
     <script>
+        
+        WebFontConfig = {
++      typekit: { id: 'hla5shv' }
++   };
++
++   (function(d) {
++      var wf = d.createElement('script'), s = d.scripts[0];
++      wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
++      wf.async = true;
++      s.parentNode.insertBefore(wf, s);
++   })(document);
 
         function myFunction() {
     var popup = document.getElementById("myPopup");
